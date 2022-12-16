@@ -50,7 +50,11 @@ public class Controller {
         Collections.shuffle(listOfWords);
         hiddenWord = new Word(listOfWords.get(0));
         char[] array = hiddenWord.getHiddenWordAsArray();
-        char[] array2 = array.clone();
+        char[] array2 = new char[array.length];
+        for (int i=0;i<array2.length;i++){
+            array2[i]='_';
+        }
+        System.out.print(Arrays.toString(array2));
 
         while (true) {
             System.out.println(hiddenWord.getHiddenWord());
@@ -83,8 +87,6 @@ public class Controller {
             }
 
         }
-
-
 
     }
 
