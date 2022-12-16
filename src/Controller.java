@@ -41,9 +41,9 @@ public class Controller {
         listOfWords = fh.generateWordList(wordFile);
         Collections.shuffle(listOfWords);
         hiddenWord = new Word(listOfWords.get(0));
+        char[] array = hiddenWord.getHiddenWordAsArray();
+        char[] array2 = array.clone();
 
-
-        StringBuilder sb = new StringBuilder();
         while (true) {
             System.out.println(hiddenWord.getHiddenWord());
             String guess = sc.nextLine().toUpperCase();

@@ -4,15 +4,14 @@
     <list default="true" id="f115dcee-7560-43cc-b782-0b358e6a1680" name="Changes" comment="- Developed all the classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Word.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Word.java" afterDir="false" />
     </list>
-    <list id="0dceef49-c8d0-47a1-859e-d9d9f34d876b" name="Changes by lisap" comment="Changes by lisap" />
-    <list id="4f2b0eae-9352-4491-9a50-79d1941547df" name="Changes by robin" comment="Changes by robin" />
+    <list id="1d31485d-cbbb-407d-9ef2-d6a0cffc2271" name="Changes by lisap" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+    </list>
+    <list id="eccc3e2a-d720-44d2-bddd-590fae086bce" name="Changes by robin" comment="" />
     <list id="3a01392b-55b3-4d4a-8955-427c1cef7c12" name="Changes by Toby9" comment="Changes by Toby9">
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Word.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,19 +29,13 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/src/Controller.java">
       <ranges>
-        <range start1="3" end1="3" start2="3" end2="4" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
-        <range start1="41" end1="46" start2="42" end2="43" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
-        <range start1="47" end1="47" start2="44" end2="46" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
-        <range start1="48" end1="49" start2="47" end2="63" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
-        <range start1="50" end1="55" start2="64" end2="64" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
-        <range start1="56" end1="59" start2="65" end2="66" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/Word.java">
-      <ranges>
-        <range start1="5" end1="6" start2="5" end2="6" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
-        <range start1="12" end1="15" start2="12" end2="14" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
-        <range start1="17" end1="18" start2="16" end2="19" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="43" end1="43" start2="43" end2="45" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="44" end1="46" start2="46" end2="46" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="51" end1="52" start2="51" end2="52" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+        <range start1="54" end1="55" start2="54" end2="55" changelist="1d31485d-cbbb-407d-9ef2-d6a0cffc2271" />
+        <range start1="56" end1="57" start2="56" end2="57" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+        <range start1="59" end1="60" start2="59" end2="62" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+        <range start1="62" end1="63" start2="64" end2="65" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
       </ranges>
     </file>
   </component>
@@ -135,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671194144306</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="- Developed all the classes">
+      <created>1671196062269</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671196062269</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changes by Toby9">
+      <created>1671196070679</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671196070679</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,9 +161,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Developed all the classes" />
-    <MESSAGE value="- Developed all the classes" />
     <MESSAGE value="Changes by lisap" />
     <MESSAGE value="Changes by robin" />
+    <MESSAGE value="- Developed all the classes" />
     <MESSAGE value="Changes by Toby9" />
     <option name="LAST_COMMIT_MESSAGE" value="Changes by Toby9" />
   </component>
