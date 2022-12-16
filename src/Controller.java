@@ -40,14 +40,27 @@ public class Controller {
     void playGame() throws IOException {
         listOfWords = fh.generateWordList(wordFile);
         Collections.shuffle(listOfWords);
-        String hiddenWord = String.valueOf(new Word(listOfWords.get(0)));
-        //test
-        //g = new Graphics();
-        //state = 5;
-        //System.out.println(g.returnGraphics(state));
+        hiddenWord = new Word(listOfWords.get(0));
 
+
+        StringBuilder sb = new StringBuilder();
         while (true) {
-            hiddenWord
+            System.out.println(hiddenWord.getHiddenWord());
+            String guess = sc.nextLine().toUpperCase();
+
+            char guessLetter = guess.charAt(0);
+            char[] array = hiddenWord.getHiddenWordAsArray();
+
+
+            for (int i = 0; i < hiddenWord.getHiddenWord().length(); i++) {
+                if (array[i]==guessLetter){
+                    sb.append(guessLetter);
+                }
+                else {
+                    sb.append("_");
+                }
+            }
+            System.out.println(sb);
         }
 
 

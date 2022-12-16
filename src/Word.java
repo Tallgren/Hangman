@@ -3,16 +3,15 @@ import java.util.ArrayList;
 public class Word {
     String hiddenWord;
 
-    ArrayList<Character> characters;
+    char[] characters;
 
     public Word(String hiddenWord) {
 
         this.hiddenWord = hiddenWord;
     }
 
-    public ArrayList<Character> getHiddenWordAsArray() {
-        characters.add(hiddenWord.charAt())
-        return hiddenWord;
+    public char[] getHiddenWordAsArray() {
+        return characters = hiddenWord.toCharArray();
     }
 
     public String getHiddenWord() {
