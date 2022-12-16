@@ -71,6 +71,4 @@ public class Graphics {
         }
         return null;
     }
-
-
 }
