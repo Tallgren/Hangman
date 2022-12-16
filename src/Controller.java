@@ -49,18 +49,20 @@ public class Controller {
             String guess = sc.nextLine().toUpperCase();
 
             char guessLetter = guess.charAt(0);
-            char[] array = hiddenWord.getHiddenWordAsArray();
+
 
 
             for (int i = 0; i < array.length; i++) {
                 if (array[i]==guessLetter){
-                    sb.append(guessLetter);
+                    array2[i] = guessLetter;
                 }
                 else {
-                    sb.append("_");
+                    if (array2[i] != '_') {
+                        array2[i] = '_';
+                    }
                 }
             }
-            System.out.println(sb);
+            System.out.println(array2);
         }
 
 
