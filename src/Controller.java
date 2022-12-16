@@ -1,6 +1,7 @@
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Controller {
@@ -48,15 +49,8 @@ public class Controller {
         while (true) {
             hiddenWord
         }
-            // void checkIfCorrectGuess(String word, ArrayList<Character> guess){
-        /*for (int i=0;i<word.length();i++){
-            if (guess.contains(word.charAt(i))){
-                System.out.print(word.charAt(i));
-                correctGuesses.add(guess.get(0));
 
-            } else  {
-                System.out.print("_");
-                }*/
+
 
     }
 

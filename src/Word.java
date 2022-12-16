@@ -15,5 +15,7 @@ public class Word {
         return hiddenWord;
     }
 
-
+    public String getHiddenWord() {
+        return hiddenWord;
+    }
 }
