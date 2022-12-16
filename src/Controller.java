@@ -52,7 +52,7 @@ public class Controller {
             char[] array = hiddenWord.getHiddenWordAsArray();
 
 
-            for (int i = 0; i < hiddenWord.getHiddenWord().length(); i++) {
+            for (int i = 0; i < array.length; i++) {
                 if (array[i]==guessLetter){
                     sb.append(guessLetter);
                 }
