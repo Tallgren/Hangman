@@ -10,6 +10,8 @@ public class Controller {
     private Player player;
     private PlayerView pView = new PlayerView();
     private FileHandler fh = new FileHandler();
+    private int state = 0;
+    private Graphics g;
 
     private Word hiddenWord;
 
