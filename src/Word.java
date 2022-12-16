@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Word {
     String hiddenWord;
 
@@ -8,8 +10,8 @@ public class Word {
         this.hiddenWord = hiddenWord;
     }
 
-    public String getHiddenWord() {
-
+    public ArrayList<Character> getHiddenWordAsArray() {
+        characters.add(hiddenWord.charAt())
         return hiddenWord;
     }
 

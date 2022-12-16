@@ -41,12 +41,14 @@ public class Controller {
         Collections.shuffle(listOfWords);
         String hiddenWord = String.valueOf(new Word(listOfWords.get(0)));
         //test
-        g = new Graphics();
-        state = 5;
-        System.out.println(g.returnGraphics(state));
+        //g = new Graphics();
+        //state = 5;
+        //System.out.println(g.returnGraphics(state));
 
-
-
+        while (true) {
+            hiddenWord
+        }
+            // void checkIfCorrectGuess(String word, ArrayList<Character> guess){
         /*for (int i=0;i<word.length();i++){
             if (guess.contains(word.charAt(i))){
                 System.out.print(word.charAt(i));
