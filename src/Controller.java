@@ -37,7 +37,7 @@ public class Controller {
     void playGame() throws IOException {
         listOfWords = fh.generateWordList(wordFile);
         Collections.shuffle(listOfWords);
-        hiddenWord = new Word(listOfWords.get(0));
+        String hiddenWord = String.valueOf(new Word(listOfWords.get(0)));
         //test
         g = new Graphics();
         state = 5;

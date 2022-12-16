@@ -3,6 +3,7 @@ public class Player {
     int score = 0;
 
     public Player(String name){
+
         this.name = name;
     }
 
@@ -21,4 +22,8 @@ public class Player {
     public void setScore(int score) {
         this.score = score;
     }
+
+
+
+
 }

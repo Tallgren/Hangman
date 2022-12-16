@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f115dcee-7560-43cc-b782-0b358e6a1680" name="Changes" comment="Developed all the classes">
+    <list default="true" id="f115dcee-7560-43cc-b782-0b358e6a1680" name="Changes" comment="- Developed all the classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/Graphics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Graphics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hangman/GraphicsModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hangman/PlayerModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hangman/WordModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Word.java" afterDir="false" />
     </list>
-    <list id="7b221279-4ac5-429c-91de-8fa6391aeb86" name="Changes by lisap" comment="" />
+    <list id="0dceef49-c8d0-47a1-859e-d9d9f34d876b" name="Changes by lisap" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Word.java" afterDir="false" />
+    </list>
     <list id="4f2b0eae-9352-4491-9a50-79d1941547df" name="Changes by robin" comment="">
+      <change beforePath="$PROJECT_DIR$/Scores" beforeDir="false" afterPath="$PROJECT_DIR$/Scores" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
     </list>
     <list id="3a01392b-55b3-4d4a-8955-427c1cef7c12" name="Changes by Toby9" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Word.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +40,17 @@
     <file path="$PROJECT_DIR$/src/Controller.java">
       <ranges>
         <range start1="12" end1="12" start2="12" end2="14" changelist="4f2b0eae-9352-4491-9a50-79d1941547df" />
-        <range start1="40" end1="40" start2="42" end2="57" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="39" end1="40" start2="41" end2="42" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="41" end1="45" start2="43" end2="46" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+        <range start1="46" end1="47" start2="47" end2="51" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/Word.java">
+      <ranges>
+        <range start1="0" end1="0" start2="0" end2="2" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+        <range start1="2" end1="2" start2="4" end2="6" changelist="0dceef49-c8d0-47a1-859e-d9d9f34d876b" />
+        <range start1="8" end1="10" start2="12" end2="14" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+        <range start1="13" end1="13" start2="17" end2="18" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
       </ranges>
     </file>
   </component>
@@ -93,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671187768900</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- Developed all the classes">
+      <created>1671188808343</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671188808343</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Developed all the classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Developed all the classes" />
+    <MESSAGE value="- Developed all the classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Developed all the classes" />
   </component>
 </project>
