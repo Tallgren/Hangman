@@ -12,7 +12,16 @@ public class Controller {
     private PlayerView pView = new PlayerView();
     private FileHandler fh = new FileHandler();
     private int state = 0;
-    private Graphics g;
+    private int tries = 0;
+    private Graphics g = new Graphics();
+
+    public int getState() {
+        return state;
+    }
+
+    public void setState(int state) {
+        this.state = state;
+    }
 
     private Word hiddenWord;
 
@@ -50,19 +59,30 @@ public class Controller {
 
             char guessLetter = guess.charAt(0);
 
-
-
-            for (int i = 0; i < array.length; i++) {
-                if (array[i]==guessLetter){
-                    array2[i] = guessLetter;
-                }
-                else {
-                    if (array2[i] != '_') {
-                        array2[i] = '_';
+            if (hiddenWord.getHiddenWord().contains(guess)) {
+                for (int i = 0; i < array.length; i++) {
+                    if (array[i] == guessLetter) {
+                        array2[i] = guessLetter;
                     }
                 }
+                System.out.println(array2);
+                if (Arrays.equals(array,array2)) {
+                    System.out.println("You win");
+                    break;
+                }
+            } else {
+                //om du gissat fel
+
+                System.out.println(g.returnGraphics(++state));
+
             }
-            System.out.println(array2);
+            tries++;
+            if (state==5){
+                System.out.println("You lose!!");
+                System.out.println("You did "+ tries + " tries");
+                break;
+            }
+
         }
 
 

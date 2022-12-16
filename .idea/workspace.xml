@@ -6,12 +6,16 @@
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
     </list>
+    <list id="a0d63e99-fed6-4ad2-ac1e-6cde00504c36" name="Changes by brobe" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+    </list>
     <list id="1d31485d-cbbb-407d-9ef2-d6a0cffc2271" name="Changes by lisap" comment="">
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
     </list>
     <list id="eccc3e2a-d720-44d2-bddd-590fae086bce" name="Changes by robin" comment="" />
     <list id="3a01392b-55b3-4d4a-8955-427c1cef7c12" name="Changes by Toby9" comment="Changes by Toby9">
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +33,14 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/src/Controller.java">
       <ranges>
-        <range start1="43" end1="43" start2="43" end2="45" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
-        <range start1="44" end1="46" start2="46" end2="46" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
-        <range start1="51" end1="52" start2="51" end2="52" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
-        <range start1="54" end1="55" start2="54" end2="55" changelist="1d31485d-cbbb-407d-9ef2-d6a0cffc2271" />
-        <range start1="56" end1="57" start2="56" end2="57" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
-        <range start1="59" end1="60" start2="59" end2="62" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
-        <range start1="62" end1="63" start2="64" end2="65" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+        <range start1="0" end1="0" start2="0" end2="2" changelist="a0d63e99-fed6-4ad2-ac1e-6cde00504c36" />
+        <range start1="1" end1="5" start2="3" end2="4" changelist="a0d63e99-fed6-4ad2-ac1e-6cde00504c36" />
+        <range start1="14" end1="15" start2="13" end2="23" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="44" end1="45" start2="52" end2="57" changelist="1d31485d-cbbb-407d-9ef2-d6a0cffc2271" />
+        <range start1="47" end1="48" start2="59" end2="60" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+        <range start1="49" end1="50" start2="61" end2="61" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+        <range start1="52" end1="65" start2="63" end2="87" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="66" end1="68" start2="88" end2="88" changelist="1d31485d-cbbb-407d-9ef2-d6a0cffc2271" />
       </ranges>
     </file>
   </component>
@@ -53,7 +58,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false"
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RunManager">
@@ -142,7 +150,13 @@
       <option name="project" value="LOCAL" />
       <updated>1671196070679</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="- Developed all the classes">
+      <created>1671197770627</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1671197770627</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,8 +177,8 @@
     <MESSAGE value="Developed all the classes" />
     <MESSAGE value="Changes by lisap" />
     <MESSAGE value="Changes by robin" />
-    <MESSAGE value="- Developed all the classes" />
     <MESSAGE value="Changes by Toby9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by Toby9" />
+    <MESSAGE value="- Developed all the classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Developed all the classes" />
   </component>
 </project>
