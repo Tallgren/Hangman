@@ -38,6 +38,21 @@ public class Controller {
         listOfWords = fh.generateWordList(wordFile);
         Collections.shuffle(listOfWords);
         hiddenWord = new Word(listOfWords.get(0));
+        //test
+        g = new Graphics();
+        state = 5;
+        System.out.println(g.returnGraphics(state));
+
+
+
+        /*for (int i=0;i<word.length();i++){
+            if (guess.contains(word.charAt(i))){
+                System.out.print(word.charAt(i));
+                correctGuesses.add(guess.get(0));
+
+            } else  {
+                System.out.print("_");
+                }*/
 
     }
 

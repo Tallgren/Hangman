@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f115dcee-7560-43cc-b782-0b358e6a1680" name="Changes" comment="" />
+    <list default="true" id="f115dcee-7560-43cc-b782-0b358e6a1680" name="Changes" comment="Developed all the classes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Graphics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Graphics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hangman/GraphicsModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hangman/PlayerModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hangman/WordModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandler.java" afterDir="false" />
+    </list>
+    <list id="7b221279-4ac5-429c-91de-8fa6391aeb86" name="Changes by lisap" comment="" />
+    <list id="4f2b0eae-9352-4491-9a50-79d1941547df" name="Changes by robin" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+    </list>
+    <list id="3a01392b-55b3-4d4a-8955-427c1cef7c12" name="Changes by Toby9" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Graphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphics.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Development" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Controller.java">
+      <ranges>
+        <range start1="12" end1="12" start2="12" end2="14" changelist="4f2b0eae-9352-4491-9a50-79d1941547df" />
+        <range start1="40" end1="40" start2="42" end2="57" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -19,13 +48,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Game" />
+      <module name="Hangman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Game" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,11 +86,29 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1671187066876</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Developed all the classes">
+      <created>1671187768900</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671187768900</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Developed all the classes" />

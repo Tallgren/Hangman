@@ -15,7 +15,7 @@ public class FileHandler {
     }
 
 
-    public void writeHighscore(Player player, int score){
+    public void writeHighscore(Player player, int score) {
 
         try {
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("Scores",true));
