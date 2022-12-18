@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class FileHandler {
@@ -18,7 +19,7 @@ public class FileHandler {
     public void writeHighscore(Player player, int score) {
 
         try {
-            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("Scores",true));
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("highScore.txt",true));
 
             bufferedWriter.write("Player: "  + player.name + " Score: " + player.score + "\n");
             bufferedWriter.flush();
@@ -29,6 +30,29 @@ public class FileHandler {
         }
 
     }
+
+    public ArrayList<String> readHighScore(String filePath){
+
+        // returnerar en lista från highScores
+        ArrayList<String> scoreList = new ArrayList<>();
+
+        try {
+
+            Scanner scanner = new Scanner(new FileReader(filePath));
+
+            while (scanner.hasNext()){
+            scoreList.add(scanner.nextLine().toUpperCase());
+            }
+
+
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        return scoreList;
+    }
+
+
+
 
 
 

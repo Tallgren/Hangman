@@ -2,9 +2,9 @@ public class Player {
     String name;
     int score = 0;
 
-    public Player(String name){
-
+    public Player(String name, int score){
         this.name = name;
+        this.score = score;
     }
 
     public String getName() {

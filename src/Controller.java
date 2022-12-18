@@ -5,7 +5,8 @@ import java.util.*;
 
 public class Controller {
     private final String wordFile = "src/Words.txt";
-    private ArrayList<String>listOfWords;
+    private final String highScoreFile = "src/highScore.txt";
+    private ArrayList<String> listOfWords;
     Scanner sc = new Scanner(System.in);
     private Player player;
     private PlayerView pView = new PlayerView();
@@ -29,7 +30,7 @@ public class Controller {
         // Welcome the player and adds name to the player
         // and runs mainMenu.
         pView.welcomeMessage();
-        player = new Player(sc.nextLine());
+        player = new Player(sc.nextLine(), 0);
         runMainMenu();
     }
 
@@ -51,13 +52,13 @@ public class Controller {
         hiddenWord = new Word(listOfWords.get(0));
         char[] array = hiddenWord.getHiddenWordAsArray();
         char[] array2 = new char[array.length];
-        for (int i=0;i<array2.length;i++){
-            array2[i]='_';
+        for (int i = 0; i < array2.length; i++) {
+            array2[i] = '_';
         }
         System.out.print(Arrays.toString(array2));
 
         while (true) {
-           // System.out.println(hiddenWord.getHiddenWord());
+            // System.out.println(hiddenWord.getHiddenWord());
             String guess = sc.nextLine().toUpperCase();
             char guessLetter = guess.charAt(0);
 
@@ -68,7 +69,7 @@ public class Controller {
                     }
                 }
                 System.out.println(array2);
-                if (Arrays.equals(array,array2)) {
+                if (Arrays.equals(array, array2)) {
                     System.out.println("You win");
                     break;
                 }
@@ -79,9 +80,9 @@ public class Controller {
 
             }
             tries++;
-            if (state==5){
+            if (state == 5) {
                 System.out.println("You lose!!");
-                System.out.println("You did "+ tries + " tries");
+                System.out.println("You did " + tries + " tries");
                 break;
             }
 
@@ -90,6 +91,33 @@ public class Controller {
     }
 
     void highscore() {
-        System.out.println("highscore");
+
+        ArrayList<String> scores;
+        scores = fh.readHighScore("src/highScore.txt");
+
+        ArrayList<Player> playerList = new ArrayList<>();
+
+        for (int i = 0; i < scores.size(); i++) {
+            String playerName = (scores.get(i).substring(0, scores.get(i).indexOf(' ')));
+            int playerPoints = Integer.parseInt(scores.get(i).substring(scores.get(i).indexOf(' ') + 1));
+            Player player = new Player(playerName, playerPoints);
+            playerList.add(player);
+        }
+        Collections.sort(playerList, new Comparator<Player>() {
+            @Override
+            public int compare(Player o1, Player o2) {
+                if (o2.score == o1.score) {
+                    return o2.name.compareTo(o1.name);
+                }
+                return o2.score - o1.score;
+            }
+        });
+
+        System.out.println("HighScores: ");
+        for (Player e : playerList) {
+            System.out.println(e.getName() + "\t" + e.getScore());
+
+
+        }
     }
 }
