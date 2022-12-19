@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f115dcee-7560-43cc-b782-0b358e6a1680" name="Changes" comment="added the print to highscore feature">
+    <list default="true" id="f115dcee-7560-43cc-b782-0b358e6a1680" name="Changes" comment="- Developed all the classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/FileHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/FileHandlerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/testHighScorePrint.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/testHighScorePrint.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Controller$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Graphics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Graphics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hangman/PlayerView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/PlayerView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/highScore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/highScore.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Hangman/FileHandlerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Hangman/FileHandlerTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Hangman/FileHandlerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Hangman/FileHandlerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Hangman/testHighScorePrint.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Hangman/testHighScorePrint.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlayerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayerView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/highScore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/highScore.txt" afterDir="false" />
     </list>
+    <list id="a0d63e99-fed6-4ad2-ac1e-6cde00504c36" name="Changes by brobe" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Words.txt" afterDir="false" />
+    </list>
+    <list id="1d31485d-cbbb-407d-9ef2-d6a0cffc2271" name="Changes by lisap" comment="" />
     <list id="eccc3e2a-d720-44d2-bddd-590fae086bce" name="Changes by robin" comment="" />
-    <list id="3a01392b-55b3-4d4a-8955-427c1cef7c12" name="Changes by Toby9" comment="Changes by Toby9" />
+    <list id="3a01392b-55b3-4d4a-8955-427c1cef7c12" name="Changes by Toby9" comment="Changes by Toby9">
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphics.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="featureHighScore" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -36,6 +45,28 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Controller.java">
+      <ranges>
+        <range start1="49" end1="49" start2="49" end2="51" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="52" end1="52" start2="54" end2="55" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+        <range start1="54" end1="54" start2="57" end2="58" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+        <range start1="57" end1="60" start2="61" end2="64" changelist="a0d63e99-fed6-4ad2-ac1e-6cde00504c36" />
+        <range start1="70" end1="70" start2="74" end2="76" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="73" end1="74" start2="79" end2="83" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="77" end1="79" start2="86" end2="94" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="80" end1="80" start2="95" end2="96" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="81" end1="82" start2="97" end2="100" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="83" end1="84" start2="101" end2="103" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="85" end1="86" start2="104" end2="108" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+        <range start1="87" end1="88" start2="109" end2="109" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+        <range start1="90" end1="91" start2="111" end2="111" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+        <range start1="92" end1="93" start2="112" end2="113" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="114" end1="120" start2="134" end2="139" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="121" end1="121" start2="140" end2="141" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,26 +77,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
-    "last_opened_file_path": "C:/Users/robin/Desktop/IntelliJ/Hangman/Tests",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;TestNG&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/robin/Desktop/IntelliJ/Hangman/Tests&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\robin\Desktop\IntelliJ\Hangman\Tests" />

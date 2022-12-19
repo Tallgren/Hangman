@@ -47,6 +47,8 @@ public class Controller {
     }
 
     void playGame() throws IOException {
+        tries = 0;
+        state = 0;
         listOfWords = fh.generateWordList(wordFile);
         Collections.shuffle(listOfWords);
         hiddenWord = new Word(listOfWords.get(0));
@@ -68,20 +70,35 @@ public class Controller {
                         array2[i] = guessLetter;
                     }
                 }
+                System.out.println(g.returnGraphics(state));
+                System.out.println("Guessed letters " + wrongArray);
                 System.out.println(array2);
                 if (Arrays.equals(array, array2)) {
                     System.out.println("You win");
-                    break;
+                    player.setScore(tries);
+                    fh.writeHighscore(player, highScoreFile);
+                    run = false;
+                    runMainMenu();
                 }
             } else {
                 //om du gissat fel
+                if(!wrongArray.contains(guessLetter)) {
+                    wrongArray.add(guessLetter);
+                    System.out.println(g.returnGraphics(++state));
+                    System.out.println("Guessed letters " + wrongArray);
+                    System.out.print(array2);
+                    tries++;
+                } else {
+                    System.out.println("Try again");
 
-                System.out.println(g.returnGraphics(++state));
-
+                }
             }
-            tries++;
+
+
+            System.out.println("försök " + tries);
             if (state == 5) {
-                System.out.println("You lose!!");
+                System.out.println("\nYou lose!!");
+                System.out.println("The correct word was " + hiddenWord.getHiddenWord());
                 System.out.println("You did " + tries + " tries");
                 break;
             }
@@ -90,7 +107,7 @@ public class Controller {
 
     }
 
-    void printHighScore(String highScoreFile) {
+    public void printHighScore(String highScoreFile) {
 
         ArrayList<String> scores;
         scores = fh.readHighScore(highScoreFile);
@@ -112,12 +129,12 @@ public class Controller {
                 return o1.score - o2.score;
             }
         });
-
-        System.out.println("HighScores: ");
-        for (Player e : playerList) {
-            System.out.println(e.getName() + "\t" + e.getScore());
-
-
+        pView.printHighScores(playerList);
+        try {
+            runMainMenu();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
+
     }
 }

@@ -24,6 +24,20 @@ public class PlayerView {
         System.out.println();
     }
 
+    public void printHighScores(ArrayList<Player> playerList){
+        System.out.println("HighScores: ");
+        for (Player e : playerList) {
+            System.out.println(e.getName() + "\t" + e.getScore());
+        }
+        System.out.println();
+    }
+
+    public void printRules(){
+        System.out.println("Rules:");
+        System.out.println("You need to guess the word in 5 tries, else you are hanged.");
+        System.out.println("");
+    }
+
 
 
 
