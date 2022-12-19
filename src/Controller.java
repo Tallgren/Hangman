@@ -78,6 +78,7 @@ public class Controller {
                 System.out.println(array2);
                 if (Arrays.equals(array, array2)) {
                     System.out.println("You win");
+                    System.out.println("Points: " + tries);
                     player.setScore(tries);
                     fh.writeHighscore(player, highScoreFile);
                     run = false;
@@ -97,12 +98,10 @@ public class Controller {
                 }
             }
 
-
-            System.out.println("försök " + tries);
             if (state == 5) {
                 System.out.println("\nYou lose!!");
                 System.out.println("The correct word was " + hiddenWord.getHiddenWord());
-                System.out.println("You did " + tries + " tries");
+                System.out.println("Points: " + tries);
                 run = false;
                 runMainMenu();
 
@@ -110,6 +109,10 @@ public class Controller {
             }
         }
 
+    public void printRules() throws IOException {
+        pView.printRules();
+        runMainMenu();
+    }
 
     public void printHighScore(String highScoreFile) {
 
