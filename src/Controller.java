@@ -52,8 +52,10 @@ public class Controller {
         listOfWords = fh.generateWordList(wordFile);
         Collections.shuffle(listOfWords);
         hiddenWord = new Word(listOfWords.get(0));
+        ArrayList<Character> wrongArray = new ArrayList<>();
         char[] array = hiddenWord.getHiddenWordAsArray();
         char[] array2 = new char[array.length];
+
         for (int i = 0; i < array2.length; i++) {
             array2[i] = '_';
         }
@@ -100,12 +102,13 @@ public class Controller {
                 System.out.println("\nYou lose!!");
                 System.out.println("The correct word was " + hiddenWord.getHiddenWord());
                 System.out.println("You did " + tries + " tries");
-                break;
-            }
+                run = false;
+                runMainMenu();
 
+                }
+            }
         }
 
-    }
 
     public void printHighScore(String highScoreFile) {
 
