@@ -36,7 +36,7 @@ public class PlayerView {
     public void printRules(){
         System.out.println("\nRules:");
         System.out.println("You need to guess the word in 5 tries, else you are hanged.");
-        System.out.println("");
+        System.out.println("Guess one letter at a time(Or we will punish this...)\n");
     }
 
 

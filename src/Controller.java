@@ -41,7 +41,8 @@ public class Controller {
         switch (choice) {
             case "1" -> playGame();
             case "2" -> printHighScore(highScoreFile);
-            case "3" -> System.exit(0);
+            case "3" -> printRules();
+            case "0" -> System.exit(0);
             default -> pView.wrongValue();
         }
     }
