@@ -9,7 +9,8 @@ public class PlayerView {
     public void mainMenu(){
         System.out.println("1. Play game");
         System.out.println("2. High-score");
-        System.out.println("3. Exit");
+        System.out.println("3. Rules");
+        System.out.println("0. Exit");
     }
 
     public void wrongValue(){
@@ -33,7 +34,7 @@ public class PlayerView {
     }
 
     public void printRules(){
-        System.out.println("Rules:");
+        System.out.println("\nRules:");
         System.out.println("You need to guess the word in 5 tries, else you are hanged.");
         System.out.println("");
     }

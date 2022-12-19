@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f115dcee-7560-43cc-b782-0b358e6a1680" name="Changes" comment="- Developed all the classes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f115dcee-7560-43cc-b782-0b358e6a1680" name="Changes" comment="finishing touches">
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Controller$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Graphics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Graphics.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/PlayerView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/PlayerView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Words.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/highScore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/highScore.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlayerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayerView.java" afterDir="false" />
+    </list>
+    <list id="a0d63e99-fed6-4ad2-ac1e-6cde00504c36" name="Changes by brobe" comment="Changes by brobe">
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PlayerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayerView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/highScore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/highScore.txt" afterDir="false" />
-    </list>
-    <list id="a0d63e99-fed6-4ad2-ac1e-6cde00504c36" name="Changes by brobe" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Words.txt" afterDir="false" />
     </list>
     <list id="1d31485d-cbbb-407d-9ef2-d6a0cffc2271" name="Changes by lisap" comment="" />
     <list id="eccc3e2a-d720-44d2-bddd-590fae086bce" name="Changes by robin" comment="" />
     <list id="3a01392b-55b3-4d4a-8955-427c1cef7c12" name="Changes by Toby9" comment="Changes by Toby9">
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,22 +45,14 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/src/Controller.java">
       <ranges>
-        <range start1="49" end1="49" start2="49" end2="51" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
-        <range start1="52" end1="52" start2="54" end2="55" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
-        <range start1="54" end1="54" start2="57" end2="58" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
-        <range start1="57" end1="60" start2="61" end2="64" changelist="a0d63e99-fed6-4ad2-ac1e-6cde00504c36" />
-        <range start1="70" end1="70" start2="74" end2="76" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
-        <range start1="73" end1="74" start2="79" end2="83" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
-        <range start1="77" end1="79" start2="86" end2="94" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
-        <range start1="80" end1="80" start2="95" end2="96" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
-        <range start1="81" end1="82" start2="97" end2="100" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
-        <range start1="83" end1="84" start2="101" end2="103" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
-        <range start1="85" end1="86" start2="104" end2="108" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
-        <range start1="87" end1="88" start2="109" end2="109" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
-        <range start1="90" end1="91" start2="111" end2="111" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
-        <range start1="92" end1="93" start2="112" end2="113" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
-        <range start1="114" end1="120" start2="134" end2="139" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
-        <range start1="121" end1="121" start2="140" end2="141" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="43" end1="44" start2="43" end2="45" changelist="a0d63e99-fed6-4ad2-ac1e-6cde00504c36" />
+        <range start1="110" end1="111" start2="111" end2="116" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/PlayerView.java">
+      <ranges>
+        <range start1="11" end1="12" start2="11" end2="13" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
+        <range start1="37" end1="38" start2="38" end2="40" changelist="a0d63e99-fed6-4ad2-ac1e-6cde00504c36" />
       </ranges>
     </file>
   </component>
@@ -278,7 +266,25 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1671440055704</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="finishing touches">
+      <created>1671446113252</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1671446113252</updated>
+    </task>
+    <task id="LOCAL−00018" summary="Changes by brobe">
+      <created>1671446121847</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1671446121847</updated>
+    </task>
+    <task id="LOCAL−00019" summary="Changes by Toby9">
+      <created>1671446127261</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1671446127261</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,11 +306,12 @@
     <MESSAGE value="Changes by robin" />
     <MESSAGE value="- Developed all the classes" />
     <MESSAGE value="- Developed controller to a almost complete game" />
-    <MESSAGE value="Changes by brobe" />
     <MESSAGE value="Changes by lisap" />
-    <MESSAGE value="Changes by Toby9" />
     <MESSAGE value="- added feature to see highscores and print them sorted.&#10;Added points to player constructor." />
     <MESSAGE value="added the print to highscore feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the print to highscore feature" />
+    <MESSAGE value="finishing touches" />
+    <MESSAGE value="Changes by brobe" />
+    <MESSAGE value="Changes by Toby9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by Toby9" />
   </component>
 </project>
