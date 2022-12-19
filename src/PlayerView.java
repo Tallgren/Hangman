@@ -17,14 +17,6 @@ public class PlayerView {
         System.out.println("Wrong input value");
     }
 
-    public void writeHighScore(ArrayList<String> highScoreList){
-        System.out.println("HighScore: ");
-        for (String e : highScoreList){
-            System.out.println(e);
-        }
-        System.out.println();
-    }
-
     public void printHighScores(ArrayList<Player> playerList){
         System.out.println("HighScores: ");
         for (Player e : playerList) {

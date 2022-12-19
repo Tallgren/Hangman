@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f115dcee-7560-43cc-b782-0b358e6a1680" name="Changes" comment="finishing touches">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Controller$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/PlayerView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/PlayerView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Words.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/highScore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/highScore.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PlayerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/highScore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/highScore.txt" afterDir="false" />
     </list>
     <list id="a0d63e99-fed6-4ad2-ac1e-6cde00504c36" name="Changes by brobe" comment="Changes by brobe">
-      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlayerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Word.java" afterDir="false" />
     </list>
     <list id="1d31485d-cbbb-407d-9ef2-d6a0cffc2271" name="Changes by lisap" comment="" />
     <list id="eccc3e2a-d720-44d2-bddd-590fae086bce" name="Changes by robin" comment="" />
@@ -41,20 +41,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/Controller.java">
-      <ranges>
-        <range start1="43" end1="44" start2="43" end2="45" changelist="a0d63e99-fed6-4ad2-ac1e-6cde00504c36" />
-        <range start1="110" end1="111" start2="111" end2="116" changelist="3a01392b-55b3-4d4a-8955-427c1cef7c12" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/PlayerView.java">
-      <ranges>
-        <range start1="11" end1="12" start2="11" end2="13" changelist="f115dcee-7560-43cc-b782-0b358e6a1680" />
-        <range start1="37" end1="38" start2="38" end2="40" changelist="a0d63e99-fed6-4ad2-ac1e-6cde00504c36" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -284,7 +270,25 @@
       <option name="presentableId" value="LOCAL−00019" />
       <updated>1671446127261</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL−00020" summary="finishing touches">
+      <created>1671446723500</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1671446723500</updated>
+    </task>
+    <task id="LOCAL−00021" summary="Changes by brobe">
+      <created>1671446730901</created>
+      <option name="number" value="LOCAL−00021" />
+      <option name="presentableId" value="LOCAL−00021" />
+      <updated>1671446730901</updated>
+    </task>
+    <task id="LOCAL−00022" summary="Changes by Toby9">
+      <created>1671446735975</created>
+      <option name="number" value="LOCAL−00022" />
+      <option name="presentableId" value="LOCAL−00022" />
+      <updated>1671446735975</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
