@@ -40,7 +40,7 @@ public class Controller {
         String choice = sc.nextLine();
         switch (choice) {
             case "1" -> playGame();
-            case "2" -> highscore();
+            case "2" -> printHighScore(highScoreFile);
             case "3" -> System.exit(0);
             default -> pView.wrongValue();
         }
@@ -90,7 +90,7 @@ public class Controller {
 
     }
 
-    void highscore() {
+    void printHighScore(String highScoreFile) {
 
         ArrayList<String> scores;
         scores = fh.readHighScore(highScoreFile);
@@ -106,10 +106,10 @@ public class Controller {
         Collections.sort(playerList, new Comparator<Player>() {
             @Override
             public int compare(Player o1, Player o2) {
-                if (o2.score == o1.score) {
-                    return o2.name.compareTo(o1.name);
+                if (o1.score == o2.score) {
+                    return o1.name.compareTo(o2.name);
                 }
-                return o2.score - o1.score;
+                return o1.score - o2.score;
             }
         });
 
