@@ -57,9 +57,9 @@ public class Controller {
         for (int i = 0; i < array2.length; i++) {
             array2[i] = '_';
         }
-        System.out.print(Arrays.toString(array2));
-
-        while (true) {
+        System.out.print(array2);
+        boolean run = true;
+        while (run) {
             // System.out.println(hiddenWord.getHiddenWord());
             String guess = sc.nextLine().toUpperCase();
             char guessLetter = guess.charAt(0);
