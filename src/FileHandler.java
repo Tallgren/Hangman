@@ -8,7 +8,7 @@ public class FileHandler {
     public ArrayList<String> generateWordList(String file) throws IOException {
         ArrayList<String> wordList = new ArrayList<>();
         Scanner scanner = new Scanner(new File(file));
-        while (scanner.hasNextLine()){
+        while (scanner.hasNextLine()) {
             wordList.add(scanner.nextLine());
         }
 
@@ -16,12 +16,12 @@ public class FileHandler {
     }
 
 
-    public void writeHighscore(Player player, int score) {
+    public void writeHighscore(Player player, String filePath) {
 
         try {
-            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("highScore.txt",true));
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(filePath, true));
 
-            bufferedWriter.write("Player: "  + player.name + " Score: " + player.score + "\n");
+            bufferedWriter.write("\n" + player.name + " " + player.score);
             bufferedWriter.flush();
 
 
@@ -31,8 +31,9 @@ public class FileHandler {
 
     }
 
-    public ArrayList<String> readHighScore(String filePath){
+    public ArrayList<String> readHighScore(String filePath) {
 
+        String tmp;
         // returnerar en lista från highScores
         ArrayList<String> scoreList = new ArrayList<>();
 
@@ -40,8 +41,12 @@ public class FileHandler {
 
             Scanner scanner = new Scanner(new FileReader(filePath));
 
-            while (scanner.hasNext()){
-            scoreList.add(scanner.nextLine().toUpperCase());
+
+            while (scanner.hasNext()) {
+                tmp = scanner.nextLine();
+                if (!tmp.isEmpty()) {
+                    scoreList.add(tmp.toUpperCase());
+                }
             }
 
 
@@ -50,14 +55,6 @@ public class FileHandler {
         }
         return scoreList;
     }
-
-
-
-
-
-
-
-
 
 
 }

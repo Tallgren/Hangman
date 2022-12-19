@@ -93,7 +93,7 @@ public class Controller {
     void highscore() {
 
         ArrayList<String> scores;
-        scores = fh.readHighScore("src/highScore.txt");
+        scores = fh.readHighScore(highScoreFile);
 
         ArrayList<Player> playerList = new ArrayList<>();
 

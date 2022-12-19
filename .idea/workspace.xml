@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f115dcee-7560-43cc-b782-0b358e6a1680" name="Changes" comment="- Developed controller to a almost complete game">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/testHighScore.txt" afterDir="false" />
+    <list default="true" id="f115dcee-7560-43cc-b782-0b358e6a1680" name="Changes" comment="- added feature to see highscores and print them sorted.&#10;Added points to player constructor.">
+      <change afterPath="$PROJECT_DIR$/Tests/testHighScorePrint.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hangman.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hangman.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scores" beforeDir="false" afterPath="$PROJECT_DIR$/src/highScore.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/FileHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/FileHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/testHighScore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/testHighScore.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/FileHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/FileHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Graphics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Graphics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Hangman/FileHandlerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Hangman/FileHandlerTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Hangman/FileHandlerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Hangman/FileHandlerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Hangman/testHighScore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Hangman/testHighScore.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <list id="eccc3e2a-d720-44d2-bddd-590fae086bce" name="Changes by robin" comment="" />
     <list id="3a01392b-55b3-4d4a-8955-427c1cef7c12" name="Changes by Toby9" comment="Changes by Toby9" />
@@ -82,7 +80,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Game">
+  <component name="RunManager" selected="TestNG.FileHandlerTest.testReadHighScore">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Game" />
       <module name="Hangman" />
@@ -112,10 +110,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileHandlerTest.writeHighScoreTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hangman" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FileHandlerTest" />
+      <option name="METHOD_NAME" value="writeHighScoreTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Game" />
         <item itemvalue="TestNG.FileHandlerTest.testReadHighScore" />
+        <item itemvalue="TestNG.FileHandlerTest.writeHighScoreTest" />
+        <item itemvalue="Application.Game" />
         <item itemvalue="JUnit.ControllerTest.readHighScores" />
       </list>
     </recent_temporary>
@@ -129,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671186762726</updated>
       <workItem from="1671186764196" duration="312000" />
-      <workItem from="1671385517382" duration="9399000" />
+      <workItem from="1671385517382" duration="10770000" />
     </task>
     <task id="LOCAL−00001" summary="Developed all the classes">
       <created>1671187066876</created>
@@ -223,7 +234,13 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1671199747514</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="- added feature to see highscores and print them sorted.&#10;Added points to player constructor.">
+      <created>1671395411851</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1671395411851</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +265,7 @@
     <MESSAGE value="Changes by brobe" />
     <MESSAGE value="Changes by lisap" />
     <MESSAGE value="Changes by Toby9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by Toby9" />
+    <MESSAGE value="- added feature to see highscores and print them sorted.&#10;Added points to player constructor." />
+    <option name="LAST_COMMIT_MESSAGE" value="- added feature to see highscores and print them sorted.&#10;Added points to player constructor." />
   </component>
 </project>
