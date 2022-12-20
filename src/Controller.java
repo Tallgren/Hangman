@@ -64,7 +64,6 @@ public class Controller {
         boolean run = true;
         while (run) {
             System.out.println("\n");
-            // System.out.println(hiddenWord.getHiddenWord());
             String guess = sc.nextLine().toUpperCase();
             char guessLetter = guess.charAt(0);
 
@@ -128,14 +127,11 @@ public class Controller {
             Player player = new Player(playerName, playerPoints);
             playerList.add(player);
         }
-        Collections.sort(playerList, new Comparator<Player>() {
-            @Override
-            public int compare(Player o1, Player o2) {
-                if (o1.score == o2.score) {
-                    return o1.name.compareTo(o2.name);
-                }
-                return o1.score - o2.score;
+        Collections.sort(playerList, (o1, o2) -> {
+            if (o1.score == o2.score) {
+                return o1.name.compareTo(o2.name);
             }
+            return o1.score - o2.score;
         });
         pView.printHighScores(playerList);
         try {

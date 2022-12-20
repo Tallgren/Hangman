@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f115dcee-7560-43cc-b782-0b358e6a1680" name="Changes" comment="new line when writing a letter">
+    <list default="true" id="f115dcee-7560-43cc-b782-0b358e6a1680" name="Changes" comment="- Developed all the classes">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-12-16_13_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-12-16_13_37__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlayerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayerView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/highScore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/highScore.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Graphics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Graphics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
     </list>
     <list id="a0d63e99-fed6-4ad2-ac1e-6cde00504c36" name="Changes by brobe" comment="Changes by brobe" />
     <list id="1d31485d-cbbb-407d-9ef2-d6a0cffc2271" name="Changes by lisap" comment="" />
