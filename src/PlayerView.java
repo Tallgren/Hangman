@@ -18,7 +18,7 @@ public class PlayerView {
     }
 
     public void printHighScores(ArrayList<Player> playerList){
-        System.out.println("HighScores: ");
+        System.out.println("Amount of wrong guesses: ");
         for (Player e : playerList) {
             System.out.println(e.getName() + "\t" + e.getScore());
         }
