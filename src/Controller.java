@@ -57,28 +57,26 @@ public class Controller {
         char[] array = hiddenWord.getHiddenWordAsArray();
         char[] array2 = new char[array.length];
 
-        for (int i = 0; i < array2.length; i++) {
-            array2[i] = '_';
-        }
+        Arrays.fill(array2, '_');
         System.out.println(array2);
         boolean run = true;
         while (run) {
-            System.out.println("\n");
-            // System.out.println(hiddenWord.getHiddenWord());
+            System.out.println();
             String guess = sc.nextLine().toUpperCase();
             char guessLetter = guess.charAt(0);
 
             if (hiddenWord.getHiddenWord().contains(guess)) {
+                //om du gissat rätt
                 for (int i = 0; i < array.length; i++) {
                     if (array[i] == guessLetter) {
                         array2[i] = guessLetter;
                     }
                 }
                 System.out.println(g.returnGraphics(state));
-                System.out.println("Guessed letters " + wrongArray);
+                System.out.println("Wrong guesses " + wrongArray);
                 System.out.println(array2);
                 if (Arrays.equals(array, array2)) {
-                    System.out.println("You win");
+                    System.out.println("\nYou win!!!");
                     System.out.println("Points: " + tries);
                     player.setScore(tries);
                     fh.writeHighscore(player, highScoreFile);
@@ -90,22 +88,20 @@ public class Controller {
                 if(!wrongArray.contains(guessLetter)) {
                     wrongArray.add(guessLetter);
                     System.out.println(g.returnGraphics(++state));
-                    System.out.println("Guessed letters " + wrongArray);
+                    System.out.println("Wrong guesses " + wrongArray);
                     System.out.print(array2);
                     tries++;
                 } else {
-                    System.out.println("Try again");
-
+                    System.out.println("You have already tried that letter!");
                 }
             }
 
             if (state == 5) {
-                System.out.println("\nYou lose!!");
+                System.out.println("\nYou lose!!!");
                 System.out.println("The correct word was " + hiddenWord.getHiddenWord());
                 System.out.println("Points: " + tries);
                 run = false;
                 runMainMenu();
-
                 }
             }
         }
@@ -128,14 +124,11 @@ public class Controller {
             Player player = new Player(playerName, playerPoints);
             playerList.add(player);
         }
-        Collections.sort(playerList, new Comparator<Player>() {
-            @Override
-            public int compare(Player o1, Player o2) {
-                if (o1.score == o2.score) {
-                    return o1.name.compareTo(o2.name);
-                }
-                return o1.score - o2.score;
+        playerList.sort((o1, o2) -> {
+            if (o1.score == o2.score) {
+                return o1.name.compareTo(o2.name);
             }
+            return o1.score - o2.score;
         });
         pView.printHighScores(playerList);
         try {
@@ -143,6 +136,5 @@ public class Controller {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 }
