@@ -29,6 +29,7 @@ public class PlayerView {
         System.out.println("\nRules:");
         System.out.println("You need to guess the word in 5 tries, else you are hanged.");
         System.out.println("Guess one letter at a time(Or we will punish this...)\n");
+        System.out.println("The score is based upon the number of wrong guesses.");
     }
 
 
