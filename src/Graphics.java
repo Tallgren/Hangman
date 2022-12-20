@@ -4,6 +4,9 @@ public class Graphics {
 
 
         switch (state) {
+            case 0 -> {
+                return "";
+            }
             case 1 -> {
                 return "" +
                         " \n" +

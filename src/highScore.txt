@@ -1,9 +1,5 @@
 
-HAxxor 10
-Hangman 15
 gamer 4
-l33t 12
-ultraman 0
 master 3
 qwer 3
 rullöe 1
@@ -11,3 +7,5 @@ fluffy 1
 dawdwa 4
 lisa 2
 test 2
+fsdfgdg 4
+TobbeL 0
